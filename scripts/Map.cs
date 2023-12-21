@@ -1,12 +1,12 @@
 using Godot;
 using System;
 
-public partial class Enemy : Sprite2D
+public partial class Map : Node2D
 {
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
-        GD.Print("_Ready(): Enemy : Sprite2D");
+        GD.Print("_Ready(): Map : Node2D");
     }
 
     // Called every frame. 'delta' is the elapsed time since the previous frame.
