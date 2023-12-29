@@ -9,6 +9,7 @@
 script = ExtResource("1_80imd")
 
 [node name="MainPlayer" type="Sprite2D" parent="."]
+position = Vector2(6, 0)
 script = ExtResource("1_t706f")
 
 [node name="Enemy" type="Sprite2D" parent="."]
